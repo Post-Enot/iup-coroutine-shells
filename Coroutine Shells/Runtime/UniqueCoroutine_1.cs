@@ -2,7 +2,7 @@ using System;
 using System.Collections;
 using UnityEngine;
 
-namespace IUP_Toolkits.CoroutineShells
+namespace IUP.Toolkits.CoroutineShells
 {
     public sealed class UniqueCoroutine<T>
     {
