@@ -32,7 +32,7 @@ public class Player : MonoBehaviour
         for (int i = 0; i < 10; i += 1)
         {
             yield return new WaitForSeconds(1);
-            Debug.Log($"Seconds left: ");
+            Debug.Log($"Timer: {i} sec.");
         }
     }
 }
