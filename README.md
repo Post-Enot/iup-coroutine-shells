@@ -29,7 +29,7 @@ public class Player : MonoBehaviour
     
     private IEnumerator Routine()
     {
-        for (int i = 0; i < 10; i += 1)
+        for (int i = 1; i <= 10; i += 1)
         {
             yield return new WaitForSeconds(1);
             Debug.Log($"Timer: {i} sec.");
