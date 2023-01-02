@@ -5,8 +5,9 @@ using UnityEngine;
 namespace IUP.Toolkits.CoroutineShells
 {
     /// <summary>
-    /// Оболочка для удобной работы с Unity-корутинами.
+    /// Оболочка корутины, связываемая с методом корутины, принимающим один аргумент.
     /// </summary>
+    /// <typeparam name="T">Тип аргумента метода корутины.</typeparam>
     public sealed class CoroutineShell<T> : BaseCoroutineShell
     {
         public CoroutineShell() { }
