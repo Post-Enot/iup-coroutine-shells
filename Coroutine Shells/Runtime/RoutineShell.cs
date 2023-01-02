@@ -44,10 +44,6 @@ namespace IUP.Toolkits.CoroutineShells
 
         public void SetPerformer(MonoBehaviour performer)
         {
-            if (Performer == null)
-            {
-                throw NewPerformerNullReferenceException();
-            }
             if (IsStarted)
             {
                 throw new InvalidOperationException(
