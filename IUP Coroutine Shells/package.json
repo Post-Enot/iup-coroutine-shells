@@ -1,7 +1,7 @@
 {
   "name": "com.iup.coroutine-shells",
   "version": "1.0.0",
-  "displayName": "Coroutine Shells",
+  "displayName": "IUP Coroutine Shells",
   "description": "Shells for more comfortable and easy use of coroutines.",
   "author": {
     "name": "PostEnot",
